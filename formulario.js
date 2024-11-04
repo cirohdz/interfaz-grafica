@@ -9,8 +9,9 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
 
     if(name && email && message) {
         alert('Form Submitted Successfully!\n' + 'Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
-        document.getElementById('ciroactivecar@gmail.com').reset(); // Reseteando el formulario después de enviar
+        document.getElementById('ciroactivecars@gmail.com').reset(); // Reseteando el formulario después de enviar
     } else {
         alert('Please fill in all fields');
     }
 });
+
